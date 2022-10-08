@@ -14,7 +14,7 @@ class Home extends Component {
             allUser: []
         }
     }
-
+   
     deletePost=(id)=>{
         BlogRequestApi.deletePost(id).then((post)=>{console.log(post)})
     }
